@@ -10,7 +10,7 @@ config = {
                 port: 'PORT',
                 user: 'USER_NAME',
                 password: 'PASSWORD',
-                database: 'DB_NAME'
+                dbNane: 'DB_NAME'
             },
         },
 
@@ -28,7 +28,7 @@ config = {
                 port: 'PORT',
                 user: 'USER_NAME',
                 password: 'PASSWORD',
-                database: 'DB_NAME'
+                dbNane: 'DB_NAME'
             },
         },
         server: {

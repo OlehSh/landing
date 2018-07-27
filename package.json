@@ -6,11 +6,9 @@
     "start": "set NODE_ENV=production && node ./bin/www",
     "staging": "set NODE_ENV=staging && node ./bin/www"
   },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "node": true
-    }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlehSh/landing.git"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
@@ -22,10 +20,5 @@
     "morgan": "~1.9.0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.9.1"
   }
 }

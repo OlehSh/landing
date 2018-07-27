@@ -6,5 +6,5 @@ let localSchema = new Schema({
     article: String,
 });
 
-let Locale = mongoose.model('Locale', localSchema);
+const Locale = mongoose.model('Locale', localSchema);
 module.exports = Locale;
