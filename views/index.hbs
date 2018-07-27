@@ -1,6 +1,25 @@
-<ul>
-    <li><a href="/en">en</a></li>
-    <li><a href="/ru">ru</a></li>
-</ul>
-<h1>{{title}}</h1>
-<p> {{article}}</p>
+<!-- Menu -->
+<div class="menu-wrapper center-relative">
+    <nav>
+        <ul class="main-menu sm sm-clean">
+            <li><a href="/en">en</a></li>
+            <li><a href="/ru">ru</a></li>
+        </ul>
+    </nav>
+    <nav id="header-main-menu">
+        <ul class="main-menu sm sm-clean">
+            {{#each menu}}
+                <li>{<a href="#">{{this}}</a></li>
+            {{/each}}
+        </ul>
+    </nav>
+</div>
+<div id="home" class="section intro-page">
+    <div class="block content-1170 center-relative center-text">
+        <img class="top-logo" src="demo-images/logo.png" alt="Boxus" />
+        <br>
+        <h1 class="big-title">{{title}}</span></h1>
+        <p class="title-desc">{{article}}</p>
+    </div>
+</div>
+
